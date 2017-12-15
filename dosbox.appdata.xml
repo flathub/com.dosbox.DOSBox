@@ -25,8 +25,8 @@
   </description>
   <url type="homepage">https://www.dosbox.com</url>
   <screenshots>
-    <screenshot type="default">https://pub.asciiwolf.com/misc/appstream/screenshots/dosbox1.png</screenshot>
-    <screenshot>https://pub.asciiwolf.com/misc/appstream/screenshots/dosbox2.png</screenshot>
+    <screenshot type="default">https://raw.githubusercontent.com/flathub/com.dosbox.DOSBox/master/screenshots/dosbox1.png</screenshot>
+    <screenshot>https://raw.githubusercontent.com/flathub/com.dosbox.DOSBox/master/screenshots/dosbox2.png</screenshot>
   </screenshots>
   <update_contact>mail@asciiwolf.com</update_contact>
   <releases>
