@@ -20,7 +20,7 @@
     </p>
     <p>
     This version of DOSBox is sandboxed. You have to copy your DOS files to your Documents
-    directory and mount them using a mount command in your DOSBox.
+    directory and mount them using a mount command in DOSBox.
     </p>
   </description>
   <url type="homepage">https://www.dosbox.com</url>
