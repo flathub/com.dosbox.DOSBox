@@ -15,9 +15,6 @@
         "--filesystem=xdg-documents"
     ],
     "command": "dosbox",
-    "rename-appdata-file": "dosbox.appdata.xml",
-    "rename-desktop-file": "dosbox.desktop",
-    "rename-icon": "dosbox",
     "cleanup": [
         "/include",
         "/lib/pkgconfig",
@@ -43,15 +40,15 @@
                 },
                 {
                     "type": "file",
-                    "path": "dosbox.png"
+                    "path": "com.dosbox.DOSBox.png"
                 },
                 {
                     "type": "file",
-                    "path": "dosbox.appdata.xml"
+                    "path": "com.dosbox.DOSBox.appdata.xml"
                 },
                 {
                     "type": "file",
-                    "path": "dosbox.desktop"
+                    "path": "com.dosbox.DOSBox.desktop"
                 },
                 {
                     "type": "script",
@@ -62,9 +59,9 @@
                 }
             ],
             "post-install": [
-                "install -Dm644 dosbox.appdata.xml /app/share/appdata/dosbox.appdata.xml",
-                "install -Dm644 dosbox.desktop /app/share/applications/dosbox.desktop",
-                "install -Dm644 dosbox.png /app/share/icons/hicolor/256x256/apps/dosbox.png"
+                "install -Dm644 com.dosbox.DOSBox.appdata.xml /app/share/appdata/com.dosbox.DOSBox.appdata.xml",
+                "install -Dm644 com.dosbox.DOSBox.desktop /app/share/applications/com.dosbox.DOSBox.desktop",
+                "install -Dm644 com.dosbox.DOSBox.png /app/share/icons/hicolor/256x256/apps/com.dosbox.DOSBox.png"
             ]
         }
     ]
