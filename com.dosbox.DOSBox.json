@@ -25,6 +25,7 @@
     "modules": [
         "shared-modules/glu/glu-9.0.0.json",
         "shared-modules/SDL/SDL-1.2.15.json",
+        "shared-modules/SDL/SDL_net-1.2.8.json",
         {
             "name": "dosbox",
             "rm-configure": true,
