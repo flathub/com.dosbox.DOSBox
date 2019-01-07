@@ -27,6 +27,23 @@
         "shared-modules/SDL/SDL-1.2.15.json",
         "shared-modules/SDL/SDL_net-1.2.8.json",
         {
+            "name": "SDL_sound",
+            "rm-configure": true,
+            "config-opts": ["--disable-static"],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://icculus.org/SDL_sound/downloads/SDL_sound-1.0.3.tar.gz",
+                    "sha256": "3999fd0bbb485289a52be14b2f68b571cb84e380cc43387eadf778f64c79e6df"
+                },
+                {
+                    "type": "script",
+                    "commands": [ "AUTOMAKE=\"automake --foreign\" autoreconf -fiv" ],
+                    "dest-filename": "autogen.sh"
+                }
+            ]
+        },
+        {
             "name": "dosbox",
             "rm-configure": true,
             "sources": [
