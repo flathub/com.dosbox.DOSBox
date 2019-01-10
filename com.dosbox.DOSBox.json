@@ -53,6 +53,10 @@
                     "sha256": "7077303595bedd7cd0bb94227fa9a6b5609e7c90a3e6523af11bc4afcb0a57cf"
                 },
                 {
+                    "type": "patch",
+                    "path": "74-2-events.diff"
+                },
+                {
                     "type": "file",
                     "path": "com.dosbox.DOSBox.png"
                 },
