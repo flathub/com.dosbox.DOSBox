@@ -4,6 +4,9 @@
   <id>com.dosbox.DOSBox.desktop</id>
   <project_license>GPL-2.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
+  <provides>
+    <id>dosbox.desktop</id>
+  </provides>
   <name>DOSBox</name>
   <summary>x86/DOS emulator with sound and graphics</summary>
   <description>
