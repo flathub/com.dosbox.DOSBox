@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2017 Daniel Rusek <mail@asciiwolf.com> -->
-<component type="desktop">
-  <id>com.dosbox.DOSBox.desktop</id>
+<component type="desktop-application">
+  <id>com.dosbox.DOSBox</id>
   <project_license>GPL-2.0</project_license>
   <metadata_license>CC0-1.0</metadata_license>
   <provides>
     <id>dosbox.desktop</id>
   </provides>
+  <launchable type="desktop-id">com.dosbox.DOSBox.desktop</launchable>
   <name>DOSBox</name>
+  <developer_name>The DOSBox Team</developer_name>
   <summary>x86/DOS emulator with sound and graphics</summary>
   <description>
     <p>
@@ -28,8 +30,8 @@
   </description>
   <url type="homepage">https://www.dosbox.com</url>
   <screenshots>
-    <screenshot type="default">https://raw.githubusercontent.com/flathub/com.dosbox.DOSBox/master/screenshots/dosbox1.png</screenshot>
-    <screenshot>https://raw.githubusercontent.com/flathub/com.dosbox.DOSBox/master/screenshots/dosbox2.png</screenshot>
+    <screenshot type="default"><image>https://raw.githubusercontent.com/flathub/com.dosbox.DOSBox/master/screenshots/dosbox1.png</image></screenshot>
+    <screenshot><image>https://raw.githubusercontent.com/flathub/com.dosbox.DOSBox/master/screenshots/dosbox2.png</image></screenshot>
   </screenshots>
   <update_contact>mail@asciiwolf.com</update_contact>
   <content_rating type="oars-1.1">
