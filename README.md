@@ -47,7 +47,7 @@ then enter the following commands in a terminal:
 ```bash
 git clone --recursive https://github.com/flathub/com.dosbox.DOSBox.git
 cd com.dosbox.DOSBox
-flatpak install flathub org.freedesktop.Sdk//22.08 -y
+flatpak install flathub org.freedesktop.Sdk//23.08 -y
 flatpak-builder --force-clean --install --user -y builddir com.dosbox.DOSBox.json
 ```
 
