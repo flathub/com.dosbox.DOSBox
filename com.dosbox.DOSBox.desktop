@@ -4,6 +4,5 @@ Name=DOSBox
 Comment=Run old DOS applications
 Icon=com.dosbox.DOSBox
 Exec=run-dosbox
-Terminal=false
 Categories=Game;Emulator;
 Keywords=DOS;Emulator;
