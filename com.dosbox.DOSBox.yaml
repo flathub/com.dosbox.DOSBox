@@ -29,13 +29,13 @@ modules:
     sources:
       - type: git
         url: https://github.com/libsdl-org/SDL_net.git
-        commit: e2e041b81747bc01b2c5fb3757a082e525e5d25b
+        commit: 8363cd02baf1b65c287691bdd22c3dc87da9759d
 
   - name: sdl_sound
     sources:
       - type: git
         url: https://github.com/icculus/SDL_sound.git
-        commit: 3c1cc931b2ea598c553a0b92cda315d191194b5a
+        commit: 756519dd014b6513a1fa27dcdcbd44d6011d2971
 
   - name: dosbox
     sources:
